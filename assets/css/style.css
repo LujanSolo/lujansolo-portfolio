@@ -5,20 +5,24 @@ body {
   background-color: gold;
 }
 
-img {
-  display: block;
-  max-width: 20%;
-  max-height: auto;
-}
-
 header {
+  width: 100%;
+  height: auto;
   margin-top: 30px;
   margin-bottom: 30px;
   padding: 10px;
   background-color: blueviolet;
 }
 
+li {
+  display: inline;
+}
+
+/* img { */
+
+/* } */
+
 h1 {
   padding: 10px 0px 0px 100px;
-  margin-left: ;
+  /* display: inline; */
 }
