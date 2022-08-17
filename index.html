@@ -8,10 +8,27 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>The Official Portfolio of LujanSolo</title>
   </head>
-
+  <!-- GIVEN I need to sample a potential employee's previous work
+  WHEN I load their portfolio
+  THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+  WHEN I click one of the links in the navigation
+  THEN the UI scrolls to the corresponding section
+  WHEN I click on the link to the section about their work
+  THEN the UI scrolls to a section with titled images of the developer's applications
+  WHEN I am presented with the developer's first application
+  THEN that application's image should be larger in size than the others
+  WHEN I click on the images of the applications
+  THEN I am taken to that deployed application
+  WHEN I resize the page or view the site on various screens and devices
+  THEN I am presented with a responsive layout that adapts to my viewport -->
   <body>
     <header class="title-block">
       <h1 class="text-left">Jamie Lujan</h1>
+      <nav>
+        <button>About</button>
+        <button>Projects</button>
+        <button>Contact</button>
+      </nav>
       <figure>
         <img class="headshot"
             src="./assets/images/lujan-profilepic.png"
@@ -19,37 +36,25 @@
           />
       </figure>
     </header> 
-    <nav>
-      <ul>
-        <li><a href="#">About Me</a></li>
-        <li><a href="#">Featured Project</a></li>
-        <li><a href="#">Coming Soon!</a></li>
-        <li><a href="#">Contact Me</a></li>
-      </ul>
-    </nav>
-
+    <section class="pageBreak1">
+    </section>
     <main>
-      <section class="featured">
-        <img src=""/>
+      <section class="featuredProject">
+        <img src="./assets/images/horiseon-resized.jpg"/>
         <footer>The Horiseon Refactor</footer>
       </section>
-      <section class=""
-    <aside>
-      <section class="bio">
-        <img src="">
-        <footer>About Me</footer>
-      </section>
-      <section class=""
-    </main>
-
-
-
-
-    <footer class="text-center">
-      © 2022 LujanSolo, LTD. 
+      
+     
+    <footer class="contact">
+      <h4>Contact Me</h4>
+        <ul>
+          <li>email</li>
+          <li>phone</li>
+          <li>linkedin</li>
+          <li>github</li>
+        </ul>
     </footer>
-  </body>
-</html>
+    </main>
 
 <!-- /* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
 
@@ -75,4 +80,13 @@
 } -->
 
 
+
+
+
+
+    <footer class="text-center">
+      © 2022 LujanSolo, LTD. 
+    </footer>
+  </body>
+</html>
 
