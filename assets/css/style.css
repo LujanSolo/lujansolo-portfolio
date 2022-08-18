@@ -80,10 +80,10 @@ aside {
 }
 
 .aboutMe {
-   display: flex;
-   justify-content: space-evenly;
-   padding-top: 5rem;
-   padding-right: 5rem;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 5rem;
+  padding-right: 5rem;
 } 
 
 .aboutMe h2 {
