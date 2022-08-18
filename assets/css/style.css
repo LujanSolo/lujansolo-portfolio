@@ -33,7 +33,7 @@ header {
 header h1 {
   display: inline-block;
   font-size: 5rem;
-  color:rgba(255, 217, 4, 0.741);
+  color:rgb(244, 242, 235);
 }
 
 .headshot {
@@ -131,7 +131,7 @@ p {
 
 .stock1, .stock2, .stock3, .stock4 {
   display: flex;
-  justify-content: ;
+  flex: wrap;
   width: 65%;
   
 }
@@ -153,6 +153,13 @@ li {
   color:rgb(220, 220, 220)
 }
 
+h4 {
+  display: flex;
+  flex: wrap;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: medium;
+
+}
 h5 {
   font-size: 2.3rem;
 }
