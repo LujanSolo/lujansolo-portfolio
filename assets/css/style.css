@@ -67,11 +67,27 @@ a {
 }
 
 main {
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex;
+  flex-wrap: wrap; */
   background-image: linear-gradient(palegoldenrod, black);
 }
 
+.content {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+/* .aboutMe { */
+  display: flex;
+  color: white;
+  font-size: 3rem;
+  width: 30%;
+}
+
+.aboutMe p {
+  display: flex;
+  width: 70%;
+}
 
 .projects {
   display: inline-block;
@@ -113,11 +129,7 @@ li {
   padding: 2rem;
 }
 
-.aboutMe {
-  display: flex;
-  color: white;
-  font-size: 3rem;
-}
+
 
 .justify-right {
   display: flex;
