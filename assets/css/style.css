@@ -72,8 +72,8 @@ main {
   background-image: linear-gradient(palegoldenrod, black);
 }
 
-.content{
-  /* display: inline-block; */
+aside {
+  display: inline-block;
   margin-left: 2rem;
   margin-right: 2rem;
   margin-bottom: 2rem;
@@ -104,22 +104,24 @@ p {
   }
 
 .projects {
-  display: inline-block;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 5rem;
+  padding-right: 5rem;
 }
 
-
-h3 {
-  font-size: 3rem;
+.projects h3{
+  color: black;
+  font-size: 5rem;
+  width: 35%;
+  border-right: .3rem solid black;
+  text-align: right;
 }
 
 .horiseon {
-  display: flex;
-  color: white;
-  font-size: 3rem;
-}
-
-.main-project-image {
+  padding-left: 3rem;
   max-width: 50rem;
+  
 }
 
 .coming-soon, .coming-soon2, .coming-soon3, .coming-soon4 {
