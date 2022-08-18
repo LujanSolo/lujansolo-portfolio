@@ -72,12 +72,12 @@ main {
   background-image: linear-gradient(palegoldenrod, black);
 }
 
-aside {
+/* aside {
   display: inline-block;
   margin-left: 2rem;
   margin-right: 2rem;
   margin-bottom: 2rem;
-}
+} */
 
 .aboutMe {
   display: flex;
