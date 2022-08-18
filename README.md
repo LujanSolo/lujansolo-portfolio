@@ -2,18 +2,20 @@
 
 ## Description
 
-In an effort to develop his novice coding skills, this developer endeavors to refine this initial portfolio by continually adding new projects and refinining existing projects as his skillset develops. 
+In an effort to develop his novice coding skills, this developer endeavors to refine this initial portfolio by continually adding new projects and refinining existing projects as his skillset develops.
 
 The developer gained a better understanding the nuances of the flex attribute, media sizing, and CSS in general.
 
 ## Usage
 
+ONLINE @: https://lujansolo.github.io/lujansolo-portfolio/
+
+GITHUB REPO @: https://github.com/LujanSolo/lujansolo-portfolio
+
 As the developer has no defined portfolio of which to speak, this current draft is more of a mock-up and placeholder for future works.
 
 Current status:
-    ![LujanSolo Portfolio online](assets/images/lujan-portfolio.png)
-
-
+![LujanSolo Portfolio online](assets/images/lujan-portfolio.png)
 
 ## License
 
