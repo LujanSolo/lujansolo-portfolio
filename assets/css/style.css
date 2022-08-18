@@ -13,7 +13,7 @@ body {
   background-color: black;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: rgba(255, 217, 4, 0.741);
-  margin: 2rem;
+  margin: 1rem;
   background-color: rgb(22, 22, 21); 
 }
 
@@ -21,12 +21,12 @@ header {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
-  margin-top: 3rem;
+  margin-top: 1rem;
   padding: 1rem;
   height: 30rem;
   line-height: 25rem;
   background-color: rgb(33, 41, 71);
-  border: 1rem groove rgb(79, 123, 190);
+  border: 1rem groove rgb(129, 128, 125);
   color:rgb(220, 220, 220)
 }
 
@@ -52,6 +52,18 @@ header nav ul {
 header nav ul li {
   display: inline-block;
   font-size: 3rem;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.pageBreak1 {
+  width: 100%;
+  background-color: rgb(17, 18, 20);
+  padding: .5rem;
+  margin-bottom: 2rem; 
+  border: .5rem double rgb(103, 104, 106); 
 }
 
 main {
@@ -94,55 +106,6 @@ h3 {}
 }
 
 
-
-
-
-
-
-
-
-
-/* div {
-  position: relative;
-}
-
-h3 {
-  font-size:3rem;
-  color: red;
-}
-
-.projects {
-  width: 75%;
-  display: inline-block;
-  margin-left: 20px;  
-}
-
-.horiseon h3 {
-  justify-content;
-} */
-
-
-
-
-nav {
-  display: flex;
-}
-
-button {
-  width: 15rem;
-  height: 5rem;
-  margin: 1rem;
-  font-size: 300%;
-  color: rgb(25, 51, 76);
-  background-color: rgba(168, 151, 44, 0.758);
-  border: .2rem outset silver;
-}
-
-button:hover {
-  background-color: dodgerblue;
-  color:rgba(255, 255, 255, 0.758);
-}
-
 li {
   display:inline-flex;
   justify-content: space-around;
@@ -155,12 +118,6 @@ li {
   color: white;
   font-size: 3rem;
 }
-
-
-
-
-
-
 
 .justify-right {
   display: flex;
@@ -184,13 +141,3 @@ li {
 
 
 
-.pageBreak1 {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  background-color: rgb(79, 123, 190);
-  padding: 1rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem; 
-  border: .4rem double khaki; 
-}
