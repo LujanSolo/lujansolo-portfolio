@@ -114,13 +114,14 @@ p {
   color: black;
   font-size: 5rem;
   width: 35%;
+  padding-right: 2rem;
   border-right: .3rem solid black;
   text-align: right;
 }
 
 .horiseon {
   padding-left: 3rem;
-  max-width: 50rem;
+  width: 65%;
   
 }
 
