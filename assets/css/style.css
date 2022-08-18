@@ -67,17 +67,8 @@ a {
 }
 
 main {
-  /* display: flex;
-  flex-wrap: wrap; */
   background-image: linear-gradient(palegoldenrod, black);
 }
-
-/* aside {
-  display: inline-block;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  margin-bottom: 2rem;
-} */
 
 .aboutMe {
   display: flex;
@@ -110,8 +101,8 @@ p {
   padding-right: 5rem;
 }
 
-.projects h3{
-  color: black;
+.projects h3 {
+  color: rgb(0, 0, 0);
   font-size: 5rem;
   width: 35%;
   padding-right: 2rem;
@@ -124,17 +115,25 @@ p {
   width: 65%; 
 }
 
+.comingSoon {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 5rem;
+}
+
 .comingSoon h3 {
-  color: black;
+  color: rgb(185, 184, 179);
   font-size: 5rem;
   width: 35%;
-  padding-right: 2rem;
   border-right: .3rem solid black;
   text-align: right;
 }
 
-.coming-soon, .coming-soon2, .coming-soon3, .coming-soon4 {
-  width: 25rem;
+.stock1, .stock2, .stock3, .stock4 {
+  display: flex;
+  justify-content: ;
+  width: 65%;
+  
 }
 
 li {
