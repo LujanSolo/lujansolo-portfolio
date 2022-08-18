@@ -15,7 +15,7 @@ GITHUB REPO @: https://github.com/LujanSolo/lujansolo-portfolio
 As the developer has no defined portfolio of which to speak, this current draft is more of a mock-up and placeholder for future works.
 
 Current status:
-![LujanSolo Portfolio online](assets/images/lujan-portfolio.png)
+![LujanSolo Portfolio online](assets/images/website-ss.png)
 
 ## License
 
