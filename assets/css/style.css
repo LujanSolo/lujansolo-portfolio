@@ -12,7 +12,7 @@ body {
 
   background-color: black;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color: rgba(255, 217, 4, 0.741);
+  color: rgba(246, 246, 246, 0.741);
   margin: 1rem;
   background-color: rgb(22, 22, 21); 
 }
@@ -58,11 +58,11 @@ a {
   color: #ffffff;
   text-decoration: none;
 }
+
 .pageBreak1 {
   width: 100%;
   background-color: rgb(17, 18, 20);
   padding: .5rem;
-  margin-bottom: 2rem; 
   border: .5rem double rgb(103, 104, 106); 
 }
 
@@ -72,22 +72,36 @@ main {
   background-image: linear-gradient(palegoldenrod, black);
 }
 
-.content {
-  display: inline-block;
-  margin-left: 20px;
+.content{
+  /* display: inline-block; */
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
 }
 
-/* .aboutMe { */
-  display: flex;
-  color: white;
-  font-size: 3rem;
-  width: 30%;
+.aboutMe {
+   display: flex;
+   justify-content: space-evenly;
+   padding-top: 5rem;
+   padding-right: 5rem;
+} 
+
+.aboutMe h2 {
+  color: black;
+  font-size: 5rem;
+  width: 35%;
+  border-right: .3rem solid black;
+  text-align: right;
+  padding-right: 2rem;
 }
 
-.aboutMe p {
-  display: flex;
-  width: 70%;
-}
+p {
+  color: black;
+  font-size: 2rem;
+  width: 65%;
+  padding-left: 3rem;
+  text-align: justify;
+  }
 
 .projects {
   display: inline-block;
@@ -98,20 +112,11 @@ h3 {
   font-size: 3rem;
 }
 
-h2, h3, p {
-  color:rgb(25, 51, 76)
-}
-
-
-
 .horiseon {
   display: flex;
   color: white;
   font-size: 3rem;
-  align-items;
 }
-
-h3 {}
 
 .main-project-image {
   max-width: 50rem;
@@ -121,21 +126,11 @@ h3 {}
   width: 25rem;
 }
 
-
 li {
   display:inline-flex;
   justify-content: space-around;
   font-size: 1.6rem;
   padding: 2rem;
-}
-
-
-
-.justify-right {
-  display: flex;
-  font-size: 2rem;
-  text-align: right;
-  width: 75%;
 }
 
 .contact {
@@ -150,6 +145,3 @@ li {
   border: 1rem groove rgb(79, 123, 190);
   color:rgb(220, 220, 220)
 }
-
-
-
